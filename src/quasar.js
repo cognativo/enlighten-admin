@@ -21,7 +21,8 @@ import {
   QAvatar,
   QSelect,
   QForm,
-  QInput
+  QInput,
+  QTable
 } from 'quasar'
 
 Vue.use(Quasar, {
@@ -43,7 +44,8 @@ Vue.use(Quasar, {
     QAvatar,
     QSelect,
     QForm,
-    QInput
+    QInput,
+    QTable
   },
   directives: {
   },
