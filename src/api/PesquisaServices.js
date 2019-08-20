@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const client = axios.create({
-  baseURL: 'http://localhost:7000/api/',
+  baseURL: 'https://us-central1-enlighten-services.cloudfunctions.net/scrapyServices/api/',
   json: true
 })
 
